@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.android.fcube" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="AndroidLaunchMode" value="singleTop" />
+    <feature name="App">
+        <param name="android-package" value="org.apache.cordova.App" />
+    </feature>
+    <feature name="FileTransfer">
+        <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
+    </feature>
+    <feature name="SQLitePlugin">
+        <param name="android-package" value="org.pgsqlite.SQLitePlugin" />
+    </feature>
+    <icon density="ldpi" src="res/logo.png" />
+    <icon density="mdpi" src="res/logo.png" />
+    <icon density="hdpi" src="res/logo.png" />
+    <icon density="xhdpi" src="res/logo.png" />
+    <name>Little Chef</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="bhoomit.2010@gmail.com" href="http://bhoomit.com">
+        Bhoomit Vasani
+    </author>
+    <feature name="File">
+        <param name="onload" value="true" />
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+    </feature>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.android.fcube" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Little Chef</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="bhoomit.2010@gmail.com" href="http://bhoomit.com">
+        Bhoomit Vasani
+    </author>
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+    </feature>
+    <content src="index.html" />
+    <access origin="*" />
+    <platform name="android">
+      <icon src="res/logo.png" density="ldpi" />
+      <icon src="res/logo.png" density="mdpi" />
+      <icon src="res/logo.png" density="hdpi" />
+      <icon src="res/logo.png" density="xhdpi" />
+     </platform>
+</widget>

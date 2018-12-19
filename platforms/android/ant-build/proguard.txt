@@ -1,0 +1,15 @@
+# view AndroidManifest.xml #generated:19
+-keep class com.android.fcube.FCube { <init>(...); }
+
+# view AndroidManifest.xml #generated:7
+-keep class com.samsung.android.example.helloaccessoryprovider.service.HelloAccessoryProviderService { <init>(...); }
+
+# view AndroidManifest.xml #generated:8
+-keep class com.samsung.android.sdk.accessory.RegisterUponInstallReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:13
+-keep class com.samsung.android.sdk.accessory.ServiceConnectionIndicationBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:25
+-keep class org.pgsqlite.SQLitePlugin { <init>(...); }
+
